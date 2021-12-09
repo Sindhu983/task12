@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Quiz</title>
+    <link href="quiz.css" rel="stylesheet"/>
+</head>
+<body>
+    <nav> 
+        <a href="isTriangle.html">Is Triangle</a>
+        <a href="quizTriangle.html">Quiz on Triangle</a>
+        <a href="hypotenuse.html">Hypotenuse</a>
+        <a href="areaOfTriangle.html">Area of Triangle</a>
+
+    </nav> 
+    <h1>Triangle Quiz</h1>
+    <form class="quiz-form">
+        <div class="question-container">
+            <p>This type of triangle has one 90 degree angle.</p>
+
+            <label><input type="radio" name="question1" value="Acute"/>Acute</label>
+            <label><input type="radio" name="question1" value="Right Angle"/>Right Angle</label>
+            <label><input type="radio" name="question1" value="obtuse"/>obtuse</label>
+
+        </div>
+
+        <div class="question-container">
+            <p>A triangle where all sides are congruent is called</p>
+            <label><input type="radio" name="question2" value="Scalen">scalen</label>
+            <label><input type="radio" name="question2" value="Isoscale">Isoscale</label>
+            <label><input type="radio" name="question2" value="Equilateral">Equilateral</label>
+        </div>
+
+        <div class="question-container">
+            <p>All 3 interior angles of a triangle add up to</p>
+            <label><input type="radio" name="question3" value="90 degrees">90 degrees</label>
+            <label><input type="radio" name="question3" value="180 degrees">180 degrees</label>
+            <label><input type="radio" name="question3" value="360 degrees">360 degrees</label>
+        </div>
+
+        <div class="question-container">
+            <p>Which sign replaces the blank for the given statement to be true? 0.2___0.5</p>
+            <label><input type="radio" name="question4" value=">">></label>
+            <label><input type="radio" name="question4" value="<"><</label>
+            <label><input type="radio" name="question4" value="=">=</label>
+        </div>
+
+        <div class="question-container">
+            <p>Which ancient Greek philosopher studied triangles?</p>
+            <label><input type="radio" name="question5" value="Plato">Plato</label>
+            <label><input type="radio" name="question5" value="Socrates">Socrates</label>
+            <label><input type="radio" name="question5" value="Pythogoras">Pythogoras</label>
+        </div>
+
+        <div class="question-container">
+            <p>Complete this right angle equation: a2 + b2 =?
+
+            </p>
+            <label><input type="radio" name="question6" value="ab">ab</label>
+            <label><input type="radio" name="question6" value="c2">c2</label>
+            <label><input type="radio" name="question6" value="d2">d2</label>
+        </div>
+
+        <div class="question-container">
+            <p>True or false: A trapeze is a type of triangle?
+
+            </p>
+            <label><input type="radio" name="question7" value="True">True</label>
+            <label><input type="radio" name="question7" value="False">False</label>
+            <label><input type="radio" name="question7" value="None">None</label>
+        </div>
+        
+
+
+    </form>
+    <button id="submit-answer-btn">Submit</button>
+    <div id="output"></div>
+    <script src="quiz.js"></script>
+    
+</body>
+</html>
