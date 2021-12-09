@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    background-color: rgb(191, 192, 197);
+}
+h1{
+    padding-top: 1rem;
+    /* background-color: aqua; */
+}
+label{
+    display: block;
+    padding: 1rem;
+    margin: auto;
+}
+button{
+    text-align: center;
+    display: block;
+}
+#is-triangle-btn{
+    display: block;
+    margin: auto;
+    max-width: fit-content;
+    
+}
+nav{
+    display: inline;
+}
+nav a{
+    border-radius: 0.5rem;
+    font-size: bolder;
+    text-align: right;
+    background-color: rgb(66, 55, 94);
+    color: white;
+    padding: 1rem;;
+    margin-right:10px;
+    
+}
+.container{
+    padding: 1rem;
+    margin: 1px;
+}
+button:hover{
+    background-color: rgb(21, 21, 224);
+    color: white;
+}
